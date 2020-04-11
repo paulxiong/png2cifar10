@@ -2,6 +2,7 @@
  make a cifar10 archive from pngs
 This project is making cifar-10 binary only.
 * unzip input.zip
+'''
 input/
 ├── 1
 │   ├── airplane
@@ -51,6 +52,7 @@ input/
     └── automobile
         ├── xx.png
         ├── ...
+'''
 * copy .png files to corresponding folder ./input/1/airplane ... etc.  (folder ./input/1..5 suppose to have different imgs with same label.)
 * python create_binary.py  will generate new directory : ./binary_tar/ with following files: 
   data_batch_1.bin... test_batch.bin... batches.meta.txt

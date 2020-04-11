@@ -60,5 +60,6 @@ input/
 tar -cmf cifar-10-binary.tar cifar-10-batches-bin
 * gzip cifar-10-binary.tar
 * Finally, we have cifar-10-binary.tar.gz
-``` Above steps can be executed by make-cifa10-bin.sh
+
+ Above steps can be executed by make-cifa10-bin.sh
 
